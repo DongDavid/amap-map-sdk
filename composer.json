@@ -1,0 +1,19 @@
+{
+    "name": "dongdavid\/amap-map-sdk",
+    "description": "高德地图SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DongDavid",
+            "email": "ddv576029053@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dongdavid\\AmapMapSdk\\": "src"
+        }
+    }
+}
